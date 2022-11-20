@@ -1,0 +1,14 @@
+.header{
+    background-color: rgba(38, 38, 38, 0.941);
+    padding-bottom: 1%;
+}
+
+
+@media screen and (min-width:480px){
+    .header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 0%;
+    }
+}

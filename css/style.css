@@ -1,0 +1,97 @@
+@import url(componant/menu_deroulant.css);
+@import url(componant/titre.css);
+@import url(componant/image_clic.css);
+@import url(componant/page.css);
+@import url(componant/icone.css);
+@import url(componant/logo.css);
+@import url(componant/header.css);
+@import url(componant/image_ligne.css);
+
+
+.header{
+    background-color: rgba(38, 38, 38, 0.941);
+    padding-bottom: 1%;
+    
+}
+
+
+.image_fond{
+    width: 100%;
+    margin: 0%;
+}
+
+.portfolio{
+    display: flex;
+    align-items: center;
+    position: relative;
+    text-align: left;
+    justify-content: center;
+}
+
+
+.portfolio_text{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 70%;
+    background-color: rgb(0, 0, 0, 0.7);
+    
+}
+
+.text_portfolio{
+    font-size: 80%;
+    color: white;
+    margin: 2%;
+}
+
+
+.div_axe_un{
+    margin-top: 545%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+}
+
+
+.explication_text{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 70%;
+    margin: 2%;
+    background-color: rgb(0, 0, 0, 0.7);
+    
+}
+
+.div_axe_image_colonne{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+
+@media screen and (min-width:480px){
+    .portfolio_text{
+        width: 50%;
+        
+    }
+
+    .text_portfolio{
+        font-size: 200%;
+    }
+
+    .div_axe_un{
+        margin-top: 270%;
+    }
+}
+

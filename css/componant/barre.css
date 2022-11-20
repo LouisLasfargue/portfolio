@@ -1,0 +1,9 @@
+.barre{
+    width: 60%;
+}
+
+@media screen and (min-width:480px){
+    .barre{
+        width: 30%;
+    }
+}

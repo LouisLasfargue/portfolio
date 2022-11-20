@@ -1,0 +1,26 @@
+.icone{
+    width: 30%;
+    margin: 6%;
+}
+
+.lien{
+    display: flex;
+    justify-content: center;
+}
+
+.lien_image{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (min-width:480px){
+    .icone{
+        width: 10%;
+    }
+
+    .lien_image{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+}

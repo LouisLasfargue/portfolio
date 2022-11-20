@@ -1,0 +1,30 @@
+@import url(componant/menu_deroulant.css);
+@import url(componant/page.css);
+@import url(componant/icone.css);
+@import url(componant/logo.css);
+@import url(componant/header.css);
+@import url(componant/image_ligne.css);
+@import url(componant/div_principal.css);
+@import url(componant/barre.css);
+@import url(componant/titre.css);
+@import url(componant/div_logo.css);
+
+
+.video{
+    width: 70%;
+}
+
+.carousel{
+    margin: 3%;
+    margin-bottom: 5%;
+}
+
+.image_base{
+    width: 95%;
+}
+
+@media screen and (min-width:480px){
+    .video{
+        width: 30%;
+    }
+}

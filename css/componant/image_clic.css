@@ -1,0 +1,43 @@
+.image_clic_grand{
+        width: 80%;
+        margin: 3%;
+        overflow: hidden;
+}
+
+
+.image_clic_petit{
+    width: 80%;
+    margin: 2%;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    overflow: hidden;
+}
+
+.image_clic_grand:hover{ 
+    width:80%;
+    -webkit-transform:scale(1.1);
+    transform:scale(1.1);
+    transition:1s ease-in-out
+    }
+
+.image_clic_petit:hover{
+    width:40%;
+    -webkit-transform:scale(1.1);
+    transform:scale(1.1);
+    transition:1s ease-in-out
+    }
+
+@media screen and (min-width:480px){
+    .image_clic_grand{
+        width: 40%;
+        margin: 3%;
+    }
+
+    .image_clic_grand:hover{ 
+        width:40%;
+        -webkit-transform:scale(1.1);
+        transform:scale(1.1);
+        transition:1s ease-in-out
+        }
+    
+}

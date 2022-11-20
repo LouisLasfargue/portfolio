@@ -1,0 +1,12 @@
+.titre{
+    font-size: 160%;
+    color: white;
+    margin: 2%;
+}
+
+
+@media screen and (min-width:480px){
+    .titre{
+        font-size: 300%;
+    }
+}
